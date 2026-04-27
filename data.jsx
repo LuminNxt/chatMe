@@ -1,7 +1,7 @@
 /* Demo data for AskMAC */
 
 window.AskMacData = {
-  user: { name: "Kotti Anil", role: "SRE · Tier 2", initials: "KA" },
+  user: { name: "KA", role: "SRE · Tier 2", initials: "KA" },
 
   history: [
     { id: "INC-4821", title: "Payments 5xx spike — checkout-svc", sev: 1, time: "2m ago", active: true },
@@ -52,7 +52,7 @@ window.AskMacData = {
     },
     {
       role: "agent",
-      author: "AskMAC",
+      author: "TestAgent",
       time: "14:22",
       reasoning: {
         title: "Investigating · 6 tools called",
